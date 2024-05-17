@@ -1,10 +1,10 @@
 n=int(input("Enter the no."))
-print("::Upper triangle::")
+print("\n::Upper triangle::")
 for i in range(1,n+1):
-    print("*"*i)
-print("::LOWER triangle::")
+    print(" * "*i)
+print("\n::LOWER triangle::")
 for i in range(n+1):
-    print("*"*(n-i))
-print(":Pyramid triangle::")
+    print(" * "*(n-i))
+print("\n::Pyramid triangle::")
 for i in range(1,n+1):
     print(" "*(n-i),"* "*i)
